@@ -15,7 +15,7 @@ const contactButtons = [
   { icon: whatsappIcon, label: 'Whatsapp', link: 'https://wa.me/+918139800856' },
   { icon: googleMapIcon, label: 'Google Map', link: 'https://goo.gl/maps/rxLPgFAGZLUL8dq98?g_st=iw' },
   { icon: phoneIcon, label: 'Call Now' },
-  { icon: gmailIcon, label: 'Google Mail', link: 'mailto:contact@spectatoursandtravels@gmail.com' },
+  { icon: gmailIcon, label: 'Google Mail', link: 'mailto:@spectatoursandtravels@gmail.com' },
 ];
 
 function TravelContactOverlay() {
