@@ -32,7 +32,7 @@ function TravelContactOverlay() {
   return (
     <div className="flex justify-center items-center w-full min-h-screen bg-[#1F6776]">
       {/* Background Wrapper */}
-      <div className="relative w-[428px] h-[832px] bg-white rounded-md overflow-hidden">
+      <div className="relative w-[428px] h-[782px] bg-white rounded-md overflow-hidden">
         {/* Background Image */}
         <img
           src={spectaBackground}
