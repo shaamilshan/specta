@@ -7,7 +7,7 @@ import whatsappIcon from '../assets/whatsapp.png';
 import googleMapIcon from '../assets/maps.png';
 import phoneIcon from '../assets/call.png';
 import gmailIcon from '../assets/gmail.png';
-import spectaBackground from '../assets/background.png'; // Specta background image
+import spectaBackground from '../assets/background2.png'; // Specta background image
 import closeIcon from '../assets/close.png'; // Close button icon
 
 const contactButtons = [
@@ -32,7 +32,7 @@ function TravelContactOverlay() {
   return (
     <div className="flex justify-center items-center w-full min-h-screen bg-[#1F6776]">
       {/* Background Wrapper */}
-      <div className="relative w-[428px] h-[956px] bg-white rounded-md overflow-hidden">
+      <div className="relative w-[428px] h-[832px] bg-white rounded-md overflow-hidden">
         {/* Background Image */}
         <img
           src={spectaBackground}
@@ -89,16 +89,16 @@ function TravelContactOverlay() {
             </h2>
             <div className="flex flex-col space-y-4">
               <a
-                href="tel:+918138804856"
-                className="block px-6 py-3 text-gray-800 bg-gray-100 rounded-md hover:bg-gray-200 transition-all duration-300"
-              >
-                +91 8138804856
-              </a>
-              <a
                 href="tel:+918139800856"
                 className="block px-6 py-3 text-gray-800 bg-gray-100 rounded-md hover:bg-gray-200 transition-all duration-300"
               >
                 +91 8139800856
+              </a>
+              <a
+                href="tel:+918138804856"
+                className="block px-6 py-3 text-gray-800 bg-gray-100 rounded-md hover:bg-gray-200 transition-all duration-300"
+              >
+                +91 8138804856
               </a>
             </div>
           </div>
