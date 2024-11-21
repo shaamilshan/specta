@@ -13,7 +13,7 @@ import closeIcon from '../assets/close.png'; // Close button icon
 const contactButtons = [
   { icon: instagramIcon, label: 'Instagram', link: 'https://www.instagram.com/specta_travels' },
   { icon: whatsappIcon, label: 'Whatsapp', link: 'https://wa.me/+918139800856' },
-  { icon: googleMapIcon, label: 'Google Map', link: 'https://goo.gl/maps/rxLPgFAGZLUL8dq98?g_st=iw' },
+  { icon: googleMapIcon, label: 'Google Map', link: 'https://maps.app.goo.gl/rxLPgFAGZLUL8dq98?g_st=iw%0A' },
   { icon: phoneIcon, label: 'Call Now' },
   { icon: gmailIcon, label: 'Google Mail', link: 'mailto:@spectatoursandtravels@gmail.com' },
 ];
